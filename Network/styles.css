@@ -1,0 +1,271 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  flex-wrap: wrap;
+  font-family: "Poppins", sans-serif;
+  scroll-behavior: smooth;
+  color: white;
+  background-color: #000;
+}
+
+.top-bar {
+  background-color: #000;
+  color: #fff;
+  display: flex;
+  justify-content: space-around;
+  justify-content: end;
+  align-items: center;
+  padding: 20px;
+  flex-wrap: wrap;
+}
+
+main {
+  margin-bottom: 10vh;
+}
+
+nav {
+  display: flex;
+  gap: 5vw;
+  align-items: center;
+}
+
+.anschließen-btn {
+  background-color: rgb(238, 76, 76);
+  padding: 10px;
+  border: none;
+  border-radius: 20px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  cursor: pointer;
+}
+
+.anschließen-btn:hover {
+  box-shadow: 2px 2px 20px 2px rgb(238, 76, 76);
+}
+
+.finger {
+  width: 20px;
+  background-color: transparent;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+span {
+  color: rgb(238, 76, 76);
+}
+
+.title {
+  display: flex;
+  justify-content: start;
+  position: absolute;
+  left: 8vw;
+}
+
+.background-gif {
+  background-image: url("https://mir-s3-cdn-cf.behance.net/project_modules/disp/9e715d17935609.562c11d9e3832.gif");
+  background-size: cover;
+  background-repeat: repeat;
+  background-position: center;
+  height: 100vh;
+  opacity: 0.2;
+}
+
+.main-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: -70vh;
+  background-color: transparent;
+  flex-direction: column;
+}
+
+.title-screen {
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 450px;
+  font-size: 2.5vh;
+}
+
+.headtitle-screen {
+  background-color: transparent;
+  font-size: 9vh;
+}
+
+.scroll {
+  background-color: transparent;
+  width: 50px;
+  cursor: pointer;
+}
+
+.seemore {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: -50vh;
+  background-color: transparent;
+}
+
+.question-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: relative;
+  top: -15vh;
+}
+
+.question {
+  font-size: 6vh;
+  text-shadow: 0 0 30px red;
+}
+
+.advantage1 {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+.text1 {
+  display: flex;
+  margin-left: 40vw;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  gap: 2vh;
+  align-items: center;
+}
+
+.texthead {
+  text-shadow: 0 0 30px white;
+}
+
+.advantage2 {
+  margin-right: 0vw;
+}
+
+.text2 {
+  display: flex;
+  margin-left: -40vw;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  gap: 2vh;
+  align-items: center;
+}
+
+.text3 {
+  display: flex;
+  margin-left: 40vw;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  gap: 2vh;
+  align-items: center;
+}
+
+.pictext {
+  width: 20vh;
+  position: relative;
+  left: -40vw;
+  top: -20vh;
+}
+
+.pictext2 {
+  width: 20vh;
+  position: relative;
+  left: 40vw;
+  top: -20vh;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+}
+
+#questions {
+  margin-top: -20vh;
+}
+
+.videos-container {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 20vh;
+  gap: 20px;
+}
+
+.courses {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10vh;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 20px;
+  transition: transform 0.5s;
+}
+
+.course1 {
+  background-color: #333;
+  padding: 10px;
+  border-radius: 20px;
+  margin-right: 10px;
+  transition: transform 0.5s;
+}
+
+.course2 {
+  background-color: #333;
+  padding: 10px;
+  border-radius: 20px;
+  margin-right: 10px;
+  transition: transform 0.5s;
+}
+.course3 {
+  background-color: #333;
+  padding: 10px;
+  border-radius: 20px;
+  margin-right: 10px;
+  transition: transform 0.5s;
+}
+.course4 {
+  background-color: #333;
+  padding: 10px;
+  border-radius: 20px;
+  margin-right: 10px;
+  transition: transform 0.5s;
+}
+
+.course1:hover,
+.course2:hover,
+.course3:hover,
+.course4:hover {
+  transform: scale(1.2);
+}
+
+.join-container {
+  display: flex;
+  justify-content: center;
+  text-align: start;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 15vh;
+  gap: 5vh;
+}
